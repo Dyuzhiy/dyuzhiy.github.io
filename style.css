@@ -96,6 +96,55 @@ li.nav-item button:focus {
     text-decoration: underline;
 }
 
+table.privacy-table tbody {
+    border: 1px solid #e9e9e9;
+    border-collapse: separate;
+}
+
+table.privacy-table {
+    text-align: left;
+    font-size: 14px;
+    border-collapse: collapse;
+}
+
+table.cookie-table h4 {
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+table.cookie-table td {
+    border-top: 1px solid #e9e9e9;
+    padding-left: 20px;
+    padding-right: 20px;
+    vertical-align: text-bottom;
+}
+
+table.cookie-table td {
+    border-top: 1px solid #e9e9e9;
+    padding-left: 20px;
+    padding-right: 20px;
+    vertical-align: text-bottom;
+}
+
+table.cookie-table th {
+    font-weight: 600;
+    line-height: 20px;
+    color: #6a7e81;
+    padding: 20px;
+}
+
+table.privacy-table td {
+    border-top: 1px solid #e9e9e9;
+    padding: 20px;
+}
+
+table.privacy-table th {
+    font-weight: 500;
+    line-height: 20px;
+    color: #6a7e81;
+    padding: 20px;
+}
+
 @media (max-width: 576px) {
     .kri_leg_textp {
         background: url(marker_bottom_up.png) no-repeat left top;
